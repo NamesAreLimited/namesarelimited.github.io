@@ -3,15 +3,16 @@
    (No major overrides, just polish)
 --------------------------------------------------------------*/
 
-/* ---- Headings: gentle gradient text ---- */
+/* ---- Gubbins ---- */
 
+/* Import Jaro font */
+@import url('https://fonts.googleapis.com/css2?family=Jaro:wght@400..700&display=swap');
 
-/* ---- Images: subtle pop ---- */
-img {
-  border-radius: 8px;
-  transition:
-    transform 0.25s ease,
-    box-shadow 0.25s ease;
-  will-change: transform;
+/* ---- Headings ---- */
+
+.brand, .site-title {
+  font-family: "Jaro", sans-serif;
+  font-weight: 600;
 }
 
+/* ---- Images ---- */
