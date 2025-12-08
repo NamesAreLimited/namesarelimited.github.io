@@ -3,29 +3,10 @@
    (No major overrides, just polish)
 --------------------------------------------------------------*/
 
-/* ---- Headings: gentle gradient text ---------------------------------- */
-h1, h2 {
-  background: linear-gradient(
-      90deg,
-      hsl(210, 85%, 65%),
-      hsl(280, 75%, 65%)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+/* ---- Headings: gentle gradient text ---- */
 
-h3 {
-  background: linear-gradient(
-      90deg,
-      hsl(210, 75%, 70%),
-      hsl(280, 65%, 70%)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 0.9;
-}
 
-/* ---- Images: subtle pop / elevate on hover --------------------------- */
+/* ---- Images: subtle pop ---- */
 img {
   border-radius: 8px;
   transition:
@@ -34,22 +15,3 @@ img {
   will-change: transform;
 }
 
-img:hover {
-  transform: translateY(-4px) scale(1.015);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
-}
-
-/* ---- Links: slightly softer hover highlight -------------------------- */
-a {
-  transition: color 0.2s ease, text-shadow 0.2s ease;
-}
-
-a:hover {
-  text-shadow: 0 0 4px currentColor;
-}
-
-/* ---- Sections: very light lift on hover, extremely subtle ------------ */
-section:hover, article:hover {
-  transition: background 0.2s ease;
-  background: rgba(255, 255, 255, 0.015);
-}
