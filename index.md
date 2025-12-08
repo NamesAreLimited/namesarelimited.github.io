@@ -1,8 +1,6 @@
-# Broforge
+# Broforge ![Studio Logo / Icon](assets/img/Logo-icon.png)
 
 Forging new worlds
-
-![Studio Logo / Hero Image](assets/img/hero.png)
 
 ## What we're working on now
 
