@@ -1,4 +1,4 @@
-# Broforge ![Studio Logo / Icon](assets/img/Logo-icon.png)
+# Broforge ![Studio Logo / Icon](assets/img/logo-icon.png)
 
 Forging new worlds
 
