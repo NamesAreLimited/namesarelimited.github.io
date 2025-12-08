@@ -1,25 +1,35 @@
 /* 1) Google Font: Jaro, but ONLY for the main site title */
 @import url("https://fonts.googleapis.com/css2?family=Jaro&display=swap");
 
-h1:first-of-type {
+main > h1:first-of-type {
   font-family: "Jaro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-weight: 400;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  display: inline-flex;
-  align-items: center;  /* vertical alignment */
-  justify-content: center;  /* horizontal centering */
-  gap: 0.5rem; /* spacing between text & icon */
-  text-align: center; /* ensure text itself stays centered */
-  width: 100%; /* title occupies full width */
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  line-height: 1.1;
 }
 
-/* Logo icon sizing + alignment */
-img[alt="Studio Logo / Icon"] {
+/* Create a wrapper around the first H1 without touching HTML */
+main > h1:first-of-type {
+  display: inline-flex;       /* makes a new wrapper box around contents */
+  flex-direction: row;
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+  width: 100%;                /* center across full width of page */
+  gap: 0.5rem;                /* space between text + icon */
+  text-align: center;
+  margin-bottom: 1rem;        /* breathing room below */
+}
+
+/* Icon style */
+main > h1:first-of-type img[alt="Studio Logo / Icon"] {
   width: 48px;
   height: 48px;
   object-fit: contain;
+  margin: 0;
 }
+
 
 /* Sensible size cap for content images (screenshots) */
 img:not([alt="Studio Logo / Icon"]) {
