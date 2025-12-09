@@ -34,5 +34,7 @@ We provide consulting on:
 ## Contact
 
 Ping us an email at [hello@broforge.co.uk](mailto:hello@broforge.co.uk)  
+
 Connect with us on [X](https://x.com/thegnhenry).
-Find us on [Linkedin]([url](https://www.linkedin.com/company/broforge).
+
+Find us on [Linkedin](https://www.linkedin.com/company/broforge).
