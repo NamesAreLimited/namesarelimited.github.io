@@ -35,6 +35,15 @@ We provide consulting on:
 
 Ping us an email at [hello@broforge.co.uk](mailto:hello@broforge.co.uk)  
 
+<div class="social">
+  <a href="https://x.com/thanehenry" aria-label="Twitter">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+  <a href="[https://linkedin.com/in/yourname](https://www.threads.com/@henryashleycooper)" aria-label="Threads">
+    <i class="fa-brands fa-threads"></i>
+  </a>
+</div>
+
 Connect with us on [X](https://x.com/thegnhenry).
 
 Find us on [Linkedin](https://www.linkedin.com/company/broforge).
