@@ -41,10 +41,10 @@ Or find us on social networks:
 <div class="social">
   <a href="https://x.com/thanehenry" aria-label="Twitter">
     <i class="fa-brands fa-x-twitter fa-2x"></i>
-  </a>
+  </a>  
   <a href="https://www.linkedin.com/company/broforge" aria-label="LinkedIn">
     <i class="fa-brands fa-linkedin fa-2x"></i>
-  </a>
+  </a>  
   <a href="https://www.threads.com/@henryashleycooper" aria-label="Threads">
     <i class="fa-brands fa-threads fa-2x"></i>
   </a>
@@ -52,5 +52,3 @@ Or find us on social networks:
     <i class="fa-brands fa-instagram fa-2x"></i>
   </a>
 </div>
-
-Find us on [Linkedin](https://www.linkedin.com/company/broforge).
